@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="setup.js"></script>
+
+    <title>Tone01</title>
+  </head>
+
+  <body>
+    <h2>T01</h2>
+    <script type="module" src="tone_scripts.js"></script>
+    <div style="text-align:center;">//*\\//+\\//*\\//+\\//*\\//+\\//*\\//+\\//*\\</div><br />
+    <p style="text-align:center;">---------------------------------------------------------</p>
+    <p style="text-align:center;"> >> Waveforms << </p> <!-- <div><button id="play">test</button>
+        << Go</div> <br />
+        -->
+        <div><button id="type_sq">square</button><button id="type_tri">tri</button><button id="type_sin">sine</button></div> <br />
+        <!--        <div><button id="freq">440</button>
+          << freq</div> <br />
+-->
+        <p style="text-align:center;">---------------------------------------------------------</p>
+
+        <table>
+          <tr>
+            <td>
+              <table>
+                <thead>
+                  <th><b>Notes</b></th>
+                  <thead>
+                  <tbody>
+                    <tr class="flex-container" id="notes">
+                    </tr>
+                  </tbody>
+              </table>
+            </td>
+            <td>
+              <table>
+                <thead>
+                  <th><b>Octaves</b></th>
+                  <thead>
+                  <tbody>
+                    <tr class="flex-container" id="oct">
+                    </tr>
+                  </tbody>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <div>
+          <p><span id="info_n">Note: C</span><span> :|: </span><span id="info_o">Octave: 2</span><span> :|: </span><span id="info_osc">Waveform: triangle</span></p>
+        </div>
+  </body>
+
+</html>

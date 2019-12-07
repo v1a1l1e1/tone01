@@ -1,0 +1,41 @@
+body {
+  background-color:black;
+  font-family: Courier, sans-serif;
+  color:#eee;
+  margin:2%;
+}
+
+h2 {
+  color: White;
+  margin-top:2;
+  text-align:center;
+}
+
+button {
+  background-color: Black;
+  border: 1px solid white;
+  color: white;
+  padding: 2,2
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.flex-container > td {
+  background-color: Black;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+table {
+  border: 1px solid White;
+}

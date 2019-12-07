@@ -1,0 +1,19 @@
+{
+  "name": "tone01",
+  "version": "0.0.1",
+  "description": "a starting point",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "tonejs",
+    "audio"
+  ],
+  "author": "v1a1l1e1",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "electron": "^7.1.3",
+    "tone": "^13.8.25"
+  }
+}
